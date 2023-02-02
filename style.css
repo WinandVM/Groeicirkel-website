@@ -56,7 +56,7 @@
 }
 
 .white {
-    color: #fff
+    color: #fff !important
 }
 
 .navbarlink:hover {
@@ -79,13 +79,15 @@
     border-color: #fff;
 }
 
-.navbar {
-    font-family: 'Arial', 'Open Sans', sans-serif
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif
 }
 
 /* carousel */
 .carousel-caption {
     top: 3rem !important;
+    right: 100px;
+    left: 100px;
 }
 
 .overlay{
@@ -93,5 +95,9 @@
     height: calc(100vh - 120px);
     filter: brightness(50%)
 }
-/* 
-I'm going to try this out */
+
+footer {
+    position: absolute;
+    bottom: 3rem !important;
+    width: 100% !important;
+}
