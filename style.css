@@ -1,0 +1,97 @@
+/* navbar - top navbar */
+.topnavbar {
+    background-color: #343F74 !important;
+}
+
+.languageheader {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width:1230px) and (min-width:1201px) {
+    .languageheader {
+        padding-right: 23px;
+    }
+}
+
+@media only screen and (max-width:1260px) and (min-width:1231px) {
+    .languageheader {
+        padding-right: 26px;
+    }
+}
+
+@media only screen and (max-width:1330px) and (min-width:1261px) {
+    .languageheader {
+        padding-right: 29px;
+    }
+}
+
+@media only screen and (max-width:1380px) and (min-width:1331px) {
+    .languageheader {
+        padding-right: 33px;
+    }
+}
+
+@media only screen and (max-width:1441px) and (min-width:1381px) {
+    .languageheader {
+        padding-right: 39px;
+    }
+}
+
+@media only screen and (min-width:1442px) {
+    .div-topnavbar {
+        justify-content: center !important;
+    }
+}
+
+/* navbar - bottom/main navbar */
+
+.bottomnavbar {
+    background-color: #1D2C3F !important;
+}
+
+.navbarlink {
+    color: #fff
+}
+
+.white {
+    color: #fff
+}
+
+.navbarlink:hover {
+    color: #fff;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+@media only screen and (min-width: 1200px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .longlink {
+        text-align: center;
+    }
+}
+
+.dropdown-divider {
+    border-color: #fff;
+}
+
+.navbar {
+    font-family: 'Arial', 'Open Sans', sans-serif
+}
+
+/* carousel */
+.carousel-caption {
+    top: 3rem !important;
+}
+
+.overlay{
+    width: 100%;
+    height: calc(100vh - 120px);
+    filter: brightness(50%)
+}
+/* 
+I'm going to try this out */
