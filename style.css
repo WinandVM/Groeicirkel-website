@@ -9,6 +9,24 @@
     margin: 0;
 }
 
+@media only screen and (max-width:1099px) and (min-width:992px) {
+    .languageheader {
+        padding-right: 17px;
+    }
+}
+
+@media only screen and (max-width:1149px) and (min-width:1100px) {
+    .languageheader {
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width:1200px) and (min-width:1100px) {
+    .languageheader {
+        padding-right: 20px;
+    }
+}
+
 @media only screen and (max-width:1230px) and (min-width:1201px) {
     .languageheader {
         padding-right: 23px;
@@ -79,25 +97,75 @@
     border-color: #fff;
 }
 
-body {
-    font-family: 'Open Sans', 'Arial', sans-serif
+@media only screen and (max-width: 991px) {
+    .groeicirkel {
+        display: none;
+    }
+    .overlay {
+        object-fit: cover;
+        width: 100%;
+        height: calc(100vh - 96px) !important;
+        filter: brightness(50%);
+    }
 }
 
-/* carousel */
-.carousel-caption {
-    top: 3rem !important;
-    right: 100px;
-    left: 100px;
+@media only screen and (min-width: 992px) {
+    .groeicirkel {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -30px;
+        margin-left: 8px;
+    }
 }
 
-.overlay{
-    width: 100%;
-    height: calc(100vh - 120px);
-    filter: brightness(50%)
+@media only screen and (max-width:2200px) and (min-width:1440px) {
+.groeicirkel {
+    margin-left: 24px;
+}
 }
 
-footer {
-    position: absolute;
-    bottom: 3rem !important;
-    width: 100% !important;
-}
+@media only screen and (min-width:2201px) {
+    .groeicirkel {
+        margin-left: 48px;
+        width: 150px;
+        height: 150px;
+    }
+    .overlay {
+        object-fit: cover;
+        width: 100%;
+        height: calc(100vh - 216px) !important;
+        filter: brightness(50%);
+    }
+    }
+
+
+    body {
+        font-family: 'Open Sans', 'Arial', sans-serif
+    }
+
+    /* carousel */
+    .carousel-caption {
+        top: 3rem !important;
+        right: 50px;
+        left: 50px;
+    }
+
+    .overlay {
+        object-fit: cover;
+        width: 100%;
+        height: calc(100vh - 166px);
+        filter: brightness(50%);
+    }
+
+    footer {
+        position: absolute;
+        bottom: 3rem !important;
+        width: 100% !important;
+    }
+
+    @media only screen and (max-width:767px) {
+        i {
+            font-size: 32px;
+        }
+    }
