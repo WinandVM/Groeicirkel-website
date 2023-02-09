@@ -97,6 +97,13 @@
         right: 200px !important;
         left: 200px !important;
     }
+
+    .houtenvloerfooter{
+        position: absolute;
+        right: 200px !important;
+        left: 200px !important;
+        bottom: 1rem !important
+    }
 }
 
 .dropdown-divider {
@@ -159,11 +166,24 @@
     left: 50px;
 }
 
+.houtenvloerfooter{
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    bottom: 1rem !important
+}
+
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
     .carousel-caption {
         top: 3rem !important;
         right: 100px !important;
         left: 100px !important;
+    }
+    .houtenvloerfooter{
+        position: absolute;
+        right: 100px !important;
+        left: 100px !important;
+        bottom: 1rem !important
     }
 }
 
@@ -206,6 +226,17 @@ body {
     }
 }
 
+
+.links {
+    color: #365F91;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #184379;
+}
+
 /* autismecoaching pagina */
 
 .autismecoaching-container {
@@ -226,13 +257,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 549px) and (min-width: 425px) {
+@media only screen and (max-width: 549px) and (min-width: 432px) {
     .houtachtergrond {
         height: 600px;
     }
 }
 
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 431px) {
     .houtachtergrond {
         height: 700px;
     }
@@ -249,7 +280,7 @@ body {
 }
 
 
-@media only screen and (max-width: 696px) {
+@media only screen and (max-width: 705px) {
     .houttitel {
         left: 80px !important;
         padding-right: 80px !important;
@@ -257,6 +288,14 @@ body {
 
     .houtparagraaf {
         left: 80px !important;
+        padding-right: 80px !important;
+    }
+    .regularcontainer {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+    .regularcontainer2 {
+        padding-left: 80px !important;
         padding-right: 80px !important;
     }
 }
@@ -286,6 +325,7 @@ body {
         height: 130px;
         background-image: url("Hout-bol.webp");
         border-radius: 50%;
+        filter: brightness(200%);
     }
 }
 
@@ -299,6 +339,16 @@ body {
         background: white;
         border-radius: 50%
     }
+    .houtbolachtergrond {
+        position: absolute;
+        top: 0x;
+        left: 95px;
+        width: 130px;
+        height: 130px;
+        background-image: url("Hout-bol.webp");
+        border-radius: 50%;
+        filter: brightness(200%);
+    }
 }
 
 @media only screen and (max-width: 1045px) and (min-width: 985px) {
@@ -310,6 +360,16 @@ body {
         height: 130px;
         background: white;
         border-radius: 50%
+    }
+    .houtbolachtergrond {
+        position: absolute;
+        top: 0x;
+        left: 93px;
+        width: 130px;
+        height: 130px;
+        background-image: url("Hout-bol.webp");
+        border-radius: 50%;
+        filter: brightness(200%);
     }
 }
 
@@ -323,11 +383,25 @@ body {
         background: white;
         border-radius: 50%
     }
+    .houtbolachtergrond {
+        position: absolute;
+        top: 0x;
+        left: 90px;
+        width: 130px;
+        height: 130px;
+        background-image: url("Hout-bol.webp");
+        border-radius: 50%;
+        filter: brightness(200%);
+    }
 }
 
 @media only screen and (max-width: 956px) {
     #circle {
         display: none;
+    }
+
+    .houtbolachtergrond {
+        display: none; 
     }
 
     .houttitel {
@@ -344,6 +418,12 @@ body {
     .houtparagraaf {
         top: 180px !important;
     }
+    .regulartitle{
+        position: static !important;
+    }
+    .regulartitle2{
+        position: static !important;
+    }
 }
 
 .houtparagraaf {
@@ -359,6 +439,21 @@ body {
     position: relative;
 }
 
+@media only screen and (max-width: 956px){
+    .regularcontainer {
+        position: static;
+    }
+    .regularcontainer2 {
+        padding-top: 0px !important;
+    }
+}
+
+.regularcontainer2{
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px; 
+}
+
 .oplijsting {
     margin-left: 30px;
 }
@@ -370,15 +465,19 @@ body {
 .regulartitle {
     font-weight: 600;
     position: absolute;
+    top: 92px;
+    left: 153px
 }
 
-
-.links {
-    color: #365F91;
-    font-weight: 800;
-    text-decoration: none;
+.regulartitle2 {
+    font-weight: 600;
+    position: absolute;
+    top: 92px;
+    left: 153px
 }
 
-.links:hover {
-    color: #184379;
+.houtenvloer {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
 }
