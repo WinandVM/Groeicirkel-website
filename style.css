@@ -240,6 +240,7 @@ body {
 
 .links:hover {
     color: #184379;
+    cursor: pointer;
 }
 
 /* autismecoaching pagina */
@@ -312,13 +313,13 @@ body {
         top: 180px !important;
     }
 
-    .houtparagraaf3{
+    .houtparagraaf3 {
         left: 80px !important;
         padding-right: 80px !important;
         top: 180px !important;
     }
 
-    .houtparagraaf4{
+    .houtparagraaf4 {
         left: 80px !important;
         padding-right: 80px !important;
         top: 180px !important;
@@ -651,6 +652,7 @@ body {
     .houtparagraaf3 {
         top: 210px;
     }
+
     .houtachtergrond3 {
         height: 500px;
     }
@@ -678,6 +680,7 @@ body {
     .houtparagraaf3 {
         top: 230px !important;
     }
+
     .houtachtergrond3 {
         height: 630px;
     }
@@ -699,6 +702,7 @@ body {
     .houtachtergrond3 {
         height: 830px;
     }
+
     .houtparagraaf3 {
         top: 250px !important;
     }
@@ -746,6 +750,7 @@ body {
     .houtachtergrond4 {
         height: 500px;
     }
+
     .houtparagraaf4 {
         top: 250px;
     }
@@ -791,6 +796,7 @@ body {
     .houtachtergrond4 {
         height: 750px;
     }
+
     .houtparagraaf4 {
         top: 240px !important;
     }
@@ -812,6 +818,7 @@ body {
     .houtachtergrond4 {
         height: 900px;
     }
+
     .houtparagraaf4 {
         top: 260px !important;
     }
@@ -826,5 +833,34 @@ body {
 @media only screen and (max-width: 386px) {
     .houtachtergrond4 {
         height: 1050px;
+    }
+}
+
+
+/* kalender */
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.regularcontainer3 {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media only screen and (max-width: 956px) {
+    .regularcontainer3 {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+    .regularcontainer3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .h3tabel{
+        font-size: 16px;
     }
 }
