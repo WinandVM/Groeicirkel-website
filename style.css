@@ -118,7 +118,7 @@
     .overlay {
         object-fit: cover;
         width: 100%;
-        height: calc(100vh - 96px) !important;
+        min-height: calc(100vh - 96px) !important;
         filter: brightness(50%);
     }
 }
@@ -231,6 +231,9 @@ body {
     }
 }
 
+.fullheight {
+    min-height: calc(100vh - 200px) !important;
+}
 
 .links {
     color: #365F91;
@@ -873,4 +876,16 @@ label {
 input {
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+/* tarievenpagina */
+.tarieven {
+    height: 303px;
+    text-align: center;
+    border-image-slice: 27 27 27 27;
+    border-image-width: 10px 10px 10px 10px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url("Kader.png");
+    border-style: solid;
 }
