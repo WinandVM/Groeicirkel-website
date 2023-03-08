@@ -889,3 +889,26 @@ input {
     border-image-source: url("Kader.png");
     border-style: solid;
 }
+
+/* tarievenpagina */
+.eva {
+    width: 100%;
+    height: auto;
+}
+
+p.fw-light {
+    font-weight: 100 !important;
+}
+
+@media only screen and (max-width:767px) and (min-width:500px) {
+    .eva {
+        width: 420px;
+        height: auto;
+    }
+}
+
+/* contact */
+.googlemaps{
+    width: 100%;
+    height: 400px;
+}
