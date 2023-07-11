@@ -1,0 +1,931 @@
+/* navbar - top navbar */
+.topnavbar {
+    background-color: #343F74 !important;
+}
+
+.languageheader {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width:1099px) and (min-width:992px) {
+    .languageheader {
+        padding-right: 17px;
+    }
+}
+
+@media only screen and (max-width:1200px) and (min-width:1100px) {
+    .languageheader {
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width:1200px) and (min-width:1100px) {
+    .languageheader {
+        padding-right: 21.5px;
+    }
+}
+
+@media only screen and (max-width:1230px) and (min-width:1201px) {
+    .languageheader {
+        padding-right: 23px;
+    }
+}
+
+@media only screen and (max-width:1260px) and (min-width:1231px) {
+    .languageheader {
+        padding-right: 26px;
+    }
+}
+
+@media only screen and (max-width:1330px) and (min-width:1261px) {
+    .languageheader {
+        padding-right: 29px;
+    }
+}
+
+@media only screen and (max-width:1380px) and (min-width:1331px) {
+    .languageheader {
+        padding-right: 33px;
+    }
+}
+
+@media only screen and (max-width:1441px) and (min-width:1381px) {
+    .languageheader {
+        padding-right: 39px;
+    }
+}
+
+@media only screen and (min-width:1442px) {
+    .div-topnavbar {
+        justify-content: center !important;
+    }
+}
+
+/* navbar - bottom/main navbar */
+
+.bottomnavbar {
+    background-color: #1D2C3F !important;
+}
+
+.navbarlink {
+    color: #fff
+}
+
+.white {
+    color: #fff !important
+}
+
+.navbarlink:hover {
+    color: #fff;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+@media only screen and (min-width: 1200px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .longlink {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        top: 3rem !important;
+        right: 200px !important;
+        left: 200px !important;
+    }
+
+    .houtenvloerfooter {
+        position: absolute;
+        right: 200px !important;
+        left: 200px !important;
+        bottom: 1rem !important
+    }
+}
+
+.dropdown-divider {
+    border-color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .groeicirkel {
+        display: none;
+    }
+
+    .overlay {
+        object-fit: cover;
+        width: 100%;
+        min-height: calc(100vh - 96px) !important;
+        filter: brightness(50%);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .groeicirkel {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -30px;
+        margin-left: 8px;
+    }
+}
+
+
+@media only screen and (max-width:2200px) and (min-width:1440px) {
+    .groeicirkel {
+        margin-left: 24px;
+    }
+}
+
+@media only screen and (min-width:2201px) {
+    .groeicirkel {
+        margin-left: 48px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .overlay {
+        object-fit: cover;
+        width: 100%;
+        height: calc(100vh - 222px) !important;
+        filter: brightness(50%);
+    }
+}
+
+.activemenu {
+    font-weight: 800;
+}
+
+/* carousel */
+.carousel-caption {
+    top: 3rem !important;
+    right: 50px;
+    left: 50px;
+}
+
+.houtenvloerfooter {
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    bottom: 1rem !important
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .carousel-caption {
+        top: 3rem !important;
+        right: 100px !important;
+        left: 100px !important;
+    }
+
+    .houtenvloerfooter {
+        position: absolute;
+        right: 100px !important;
+        left: 100px !important;
+        bottom: 1rem !important
+    }
+}
+
+.overlay {
+    object-fit: cover;
+    width: 100%;
+    height: calc(100vh - 166px);
+    filter: brightness(50%);
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem !important;
+    width: 100% !important;
+}
+
+.icons-footer {
+    justify-content: center !important;
+}
+
+@media only screen and (max-width:767px) {
+    i {
+        font-size: 32px;
+    }
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 4rem !important;
+}
+
+/* body */
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif
+}
+
+@media only screen and (min-width: 2201px) {
+    body {
+        font-size: 20px;
+    }
+
+    .h3 {
+        font-size: 36px;
+    }
+}
+
+.fullheight {
+    min-height: calc(100vh - 200px) !important;
+}
+
+.links {
+    color: #365F91;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #184379;
+    cursor: pointer;
+}
+
+/* autismecoaching pagina */
+
+.autismecoaching-container {
+    position: relative;
+    color: white;
+}
+
+.houtachtergrond {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+@media only screen and (max-width: 956px) and (min-width: 550px) {
+    .houtachtergrond {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 432px) {
+    .houtachtergrond {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    .houtachtergrond {
+        height: 700px;
+    }
+}
+
+.houttitel {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-weight: 500;
+    padding-right: 150px;
+    padding-left: 1.8em;
+    text-indent: -1.8em;
+}
+
+
+.invisiblestuff {
+    color:#fff;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 705px) {
+    .houttitel {
+        left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .houtparagraaf {
+        left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .regularcontainer {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .regularcontainer2 {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .houtparagraaf2 {
+        left: 80px !important;
+        padding-right: 80px !important;
+        top: 180px !important;
+    }
+
+    .houtparagraaf3 {
+        left: 80px !important;
+        padding-right: 80px !important;
+        top: 180px !important;
+    }
+
+    .houtparagraaf4 {
+        left: 80px !important;
+        padding-right: 80px !important;
+        top: 180px !important;
+    }
+}
+
+
+.eersteletters {
+    color: black;
+    font-weight: 600 !important;
+}
+
+@media only screen and (min-width: 1090px) {
+    #circle {
+        position: absolute;
+        top: 60px;
+        left: 97px;
+        width: 130px;
+        height: 130px;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .houtbolachtergrond {
+        position: absolute;
+        top: 0x;
+        left: 97px;
+        width: 130px;
+        height: 130px;
+        background-image: url("Hout-bol.webp");
+        border-radius: 50%;
+        filter: brightness(200%);
+    }
+}
+
+@media only screen and (max-width: 1089px) and (min-width: 1046px) {
+    #circle {
+        position: absolute;
+        top: 60px;
+        left: 95px;
+        width: 130px;
+        height: 130px;
+        background: white;
+        border-radius: 50%
+    }
+
+    .houtbolachtergrond {
+        position: absolute;
+        top: 0x;
+        left: 95px;
+        width: 130px;
+        height: 130px;
+        background-image: url("Hout-bol.webp");
+        border-radius: 50%;
+        filter: brightness(200%);
+    }
+}
+
+@media only screen and (max-width: 1045px) and (min-width: 985px) {
+    #circle {
+        position: absolute;
+        top: 60px;
+        left: 93px;
+        width: 130px;
+        height: 130px;
+        background: white;
+        border-radius: 50%
+    }
+
+    .houtbolachtergrond {
+        position: absolute;
+        top: 0x;
+        left: 93px;
+        width: 130px;
+        height: 130px;
+        background-image: url("Hout-bol.webp");
+        border-radius: 50%;
+        filter: brightness(200%);
+    }
+}
+
+@media only screen and (max-width: 984px) and (min-width: 956px) {
+    #circle {
+        position: absolute;
+        top: 60px;
+        left: 90px;
+        width: 130px;
+        height: 130px;
+        background: white;
+        border-radius: 50%
+    }
+
+    .houtbolachtergrond {
+        position: absolute;
+        top: 0x;
+        left: 90px;
+        width: 130px;
+        height: 130px;
+        background-image: url("Hout-bol.webp");
+        border-radius: 50%;
+        filter: brightness(200%);
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    #circle {
+        display: none;
+    }
+
+    .houtbolachtergrond {
+        display: none;
+    }
+
+    .houttitel {
+        padding-left: 0em;
+        text-indent: 0em;
+        top: 40px;
+    }
+
+    .eersteletters {
+        color: white;
+        font-weight: 500 !important;
+    }
+
+    .houtparagraaf {
+        top: 180px !important;
+    }
+
+    .regulartitle {
+        position: static !important;
+    }
+
+    .regulartitle2 {
+        position: static !important;
+    }
+
+    .regulartitle3 {
+        position: static !important;
+    }
+
+    .regulartitle4 {
+        position: static !important;
+    }
+
+    .regulartitle5 {
+        position: static !important;
+    }
+}
+
+.houtparagraaf {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    padding-right: 150px;
+}
+
+.regularcontainer {
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+}
+
+@media only screen and (max-width: 956px) {
+    .regularcontainer {
+        position: static;
+    }
+
+    .regularcontainer2 {
+        padding-top: 0px !important;
+    }
+}
+
+.regularcontainer2 {
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.oplijsting {
+    margin-left: 30px;
+}
+
+.oplijsting>li {
+    padding-left: 15px;
+}
+
+.regulartitle {
+    font-weight: 600;
+    position: absolute;
+    top: 92px;
+    left: 153px
+}
+
+.regulartitle2 {
+    font-weight: 600;
+    position: absolute;
+    top: 92px;
+    left: 164px;
+}
+
+.houtenvloer {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    filter: brightness(70%);
+}
+
+/* mindfulness kinderen en ouders pagina */
+.regulartitle5 {
+    font-weight: 600;
+    position: absolute;
+    top: 92px;
+    left: 184px;
+}
+
+/* mindfulness kinderen en ouders pagina */
+.regulartitle3 {
+    font-weight: 600;
+    position: absolute;
+    top: 92px;
+    left: 164px
+}
+
+.regulartitle4 {
+    font-weight: 600;
+    position: absolute;
+    top: 92px;
+    left: 160px
+}
+
+.houtparagraaf2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    padding-right: 150px;
+}
+
+.houtachtergrond2 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+@media only screen and (max-width: 1205px) {
+    .houtparagraaf2 {
+        top: 250px;
+    }
+
+    .houtachtergrond2 {
+        height: 430px;
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    .houtparagraaf2 {
+        top: 180px;
+    }
+}
+
+@media only screen and (max-width: 789px) {
+    .houtparagraaf2 {
+        top: 210px;
+    }
+
+    .houtachtergrond2 {
+        height: 480px;
+    }
+}
+
+@media only screen and (max-width: 712px) {
+    .houtparagraaf2 {
+        top: 250px;
+    }
+
+    .houtachtergrond2 {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .houtparagraaf2 {
+        top: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 539px) {
+    .houtparagraaf2 {
+        top: 230px !important;
+    }
+}
+
+
+@media only screen and (max-width: 474px) {
+    .houtparagraaf2 {
+        top: 250px !important;
+    }
+
+    .houtachtergrond2 {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 463px) {
+    .houtachtergrond2 {
+        height: 700px;
+    }
+}
+
+/* mindfulness jongeren 10-14 pagina */
+.houtparagraaf3 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    padding-right: 150px;
+}
+
+.houtachtergrond3 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+@media only screen and (max-width: 1040px) {
+    .houtparagraaf3 {
+        top: 250px;
+    }
+
+    .houtachtergrond3 {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    .houtparagraaf3 {
+        top: 180px;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .houtparagraaf3 {
+        top: 210px;
+    }
+
+    .houtachtergrond3 {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 712px) {
+    .houtachtergrond3 {
+        height: 540px;
+    }
+}
+
+@media only screen and (max-width: 616px) {
+    .houtparagraaf3 {
+        top: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .houtachtergrond3 {
+        height: 580px;
+    }
+}
+
+@media only screen and (max-width: 527px) {
+    .houtparagraaf3 {
+        top: 230px !important;
+    }
+
+    .houtachtergrond3 {
+        height: 630px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .houtachtergrond3 {
+        height: 680px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .houtachtergrond3 {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .houtachtergrond3 {
+        height: 830px;
+    }
+
+    .houtparagraaf3 {
+        top: 250px !important;
+    }
+}
+
+
+@media only screen and (max-width: 394px) {
+    .houtachtergrond3 {
+        height: 880px;
+    }
+}
+
+/* mindfulness jongeren 14-18 pagina */
+.links2 {
+    color: #5387c7;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.links2:hover {
+    color: #365F91;
+}
+
+.houtparagraaf4 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    padding-right: 150px;
+}
+
+.houtachtergrond4 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+@media only screen and (max-width: 1234px) {
+    .houtachtergrond4 {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .houtachtergrond4 {
+        height: 500px;
+    }
+
+    .houtparagraaf4 {
+        top: 250px;
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    .houtparagraaf4 {
+        top: 180px;
+    }
+}
+
+@media only screen and (max-width: 819px) {
+    .houtachtergrond4 {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .houtparagraaf4 {
+        top: 210px;
+    }
+}
+
+@media only screen and (max-width: 784px) {
+    .houtachtergrond4 {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 616px) {
+    .houtparagraaf4 {
+        top: 210px !important;
+    }
+}
+
+@media only screen and (max-width: 569px) {
+    .houtachtergrond4 {
+        height: 630px;
+    }
+}
+
+@media only screen and (max-width: 527px) {
+    .houtachtergrond4 {
+        height: 750px;
+    }
+
+    .houtparagraaf4 {
+        top: 240px !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .houtachtergrond4 {
+        height: 820px;
+    }
+}
+
+@media only screen and (max-width: 429px) {
+    .houtachtergrond4 {
+        height: 850px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .houtachtergrond4 {
+        height: 900px;
+    }
+
+    .houtparagraaf4 {
+        top: 260px !important;
+    }
+}
+
+@media only screen and (max-width: 404px) {
+    .houtachtergrond4 {
+        height: 950px;
+    }
+}
+
+@media only screen and (max-width: 386px) {
+    .houtachtergrond4 {
+        height: 1050px;
+    }
+}
+
+
+/* kalender */
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.regularcontainer3 {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media only screen and (max-width: 956px) {
+    .regularcontainer3 {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+    .regularcontainer3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .h3tabel {
+        font-size: 16px;
+    }
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* tarievenpagina */
+.tarieven {
+    height: 303px;
+    text-align: center;
+    border-image-slice: 27 27 27 27;
+    border-image-width: 10px 10px 10px 10px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url("Kader.png");
+    border-style: solid;
+}
+
+/* tarievenpagina */
+.eva {
+    width: 100%;
+    height: auto;
+}
+
+p.fw-light {
+    font-weight: 100 !important;
+}
+
+@media only screen and (max-width:767px) and (min-width:500px) {
+    .eva {
+        width: 420px;
+        height: auto;
+    }
+}
+
+/* contact */
+.googlemaps{
+    width: 100%;
+    height: 400px;
+}
