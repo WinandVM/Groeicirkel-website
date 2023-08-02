@@ -57,7 +57,7 @@
     }
 }
 
-@media only screen and (min-width:1442px) {
+@media only screen and (min-width:1px) {
     .div-topnavbar {
         justify-content: center !important;
     }
