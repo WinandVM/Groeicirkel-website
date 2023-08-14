@@ -141,11 +141,11 @@
     background-color: transparent;
 }
 
-@media only screen and (max-width: 561px) {
+/* @media only screen and (max-width: 561px) {
     img.d-block.w-100.overlay {
         padding-top: 150px;
     }
-}
+} */
 
 @media only screen and (min-width: 1600px) {
     img.d-block.w-100.overlay {
@@ -169,10 +169,10 @@
     } */
 
     .carousel-caption {
-        top: 10rem !important;
+        top: 3rem !important;
         right: 200px !important;
         left: 200px !important;
-        color: #dc8836;
+        color: #fff;
     }
 
     .houtenvloerfooter {
@@ -185,19 +185,19 @@
 
 @media only screen and (min-width: 1600px) {
     .carousel-caption {
-        top: 15rem !important;
+        top: 3rem !important;
         right: 200px !important;
         left: 200px !important;
-        color: #dc8836;
+        color: #fff;
     }
 }
 
 @media only screen and (min-width: 2000px) {
     .carousel-caption {
-        top: 20rem !important;
+        top: 3rem !important;
         right: 200px !important;
         left: 200px !important;
-        color: #dc8836;
+        color: #fff;
     }
 }
 
@@ -214,7 +214,7 @@
         object-fit: cover;
         width: 100%;
         min-height: calc(100vh - 96px) !important;
-        /* filter: brightness(50%); */
+        filter: brightness(50%);
     }
 }
 
@@ -246,14 +246,14 @@
         object-fit: cover;
         width: 100%;
         height: calc(100vh - 222px) !important;
-        /* filter: brightness(50%); */
+        filter: brightness(50%);
     }
 
     .carousel-caption {
-        top: 15rem !important;
+        top: 3rem !important;
         right: 100px !important;
         left: 100px !important;
-        color: #dc8836;
+        color: #fff;
     }
 }
 
@@ -267,11 +267,18 @@
     right: 50px;
     left: 50px;
 } */
-.carousel-caption {
+/* .carousel-caption {
     top: 10rem;
     right: 50px;
     left: 50px;
     color: #dc8836;
+} */
+
+.carousel-caption {
+    top: 3rem;
+    right: 50px;
+    left: 50px;
+    color: #fff;
 }
 
 .houtenvloerfooter {
@@ -302,18 +309,18 @@
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
-    /* .carousel-caption {
+    .carousel-caption {
         top: 3rem !important;
         right: 100px !important;
         left: 100px !important;
-    } */
+    }
 
-    .carousel-caption {
+    /* .carousel-caption {
         top: 11rem !important;
         right: 100px !important;
         left: 100px !important;
-        color: #dc8836;
-    }
+        color: #fff;
+    } */
 
     .houtenvloerfooter {
         position: absolute;
@@ -324,20 +331,28 @@
 }
 
 @media only screen and (max-width: 1328px) and (min-width: 1200px) {
-    .carousel-caption {
+    /* .carousel-caption {
         top: 11rem !important;
         right: 100px !important;
         left: 100px !important;
-        color: #dc8836;
+        color: #fff;
+    } */
+
+    .carousel-caption {
+        top: 3rem !important;
+        right: 100px !important;
+        left: 100px !important;
+        color: #fff;
     }
+
 }
 
 @media only screen and (max-width: 2200px) and (min-width: 1329px) {
     .carousel-caption {
-        top: 12rem !important;
+        top: 3rem !important;
         right: 100px !important;
         left: 100px !important;
-        color: #dc8836;
+        color: #fff;
     }
 }
 
@@ -345,7 +360,7 @@
     object-fit: cover;
     width: 100%;
     height: calc(100vh - 166px);
-    /* filter: brightness(50%); */
+    filter: brightness(50%);
 }
 
 footer {
@@ -379,20 +394,41 @@ footer {
         font-size: 32px;
     }
 
+    footer {
+        position: absolute;
+        bottom: 0rem !important;
+        width: 100% !important;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 511px) {
     .carousel-caption {
-        top: 7rem !important;
+        top: 3rem !important;
         right: 30px !important;
         left: 30px !important;
-        color: #dc8836;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .carousel-caption {
+        top: 1rem !important;
+        right: 30px !important;
+        left: 30px !important;
+        color: #fff;
     }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px) {
     .carousel-caption {
-        top: 6.5rem !important;
+        top: 3rem !important;
         right: 30px !important;
         left: 30px !important;
-        color: #dc8836;
+        color: #fff;
     }
 }
 
@@ -721,14 +757,16 @@ body {
     padding-right: 150px;
 }
 
-@media only screen and (min-width: 1101px){
-    .regularcontainer4{
+@media only screen and (min-width: 1101px) {
+    .regularcontainer4 {
         padding-right: 0px !important;
     }
+
     .regularcontainer4 .regularparagraph {
         padding-right: 150px;
     }
-    .nodisplayabove1100{
+
+    .nodisplayabove1100 {
         display: none;
     }
 }
