@@ -184,7 +184,7 @@
 }
 
 @media only screen and (min-width: 1600px) {
-    .carousel-caption{
+    .carousel-caption {
         top: 15rem !important;
         right: 200px !important;
         left: 200px !important;
@@ -193,7 +193,7 @@
 }
 
 @media only screen and (min-width: 2000px) {
-    .carousel-caption{
+    .carousel-caption {
         top: 20rem !important;
         right: 200px !important;
         left: 200px !important;
@@ -282,20 +282,22 @@
 }
 
 @media only screen and (max-width: 1240px) {
-    .first-line-display{
+    .first-line-display {
         display: block;
     }
-    .first-line-display-alt{
-        display:none;
+
+    .first-line-display-alt {
+        display: none;
     }
 }
 
-@media only screen and (min-width: 1241px){
-    .first-line-display{
+@media only screen and (min-width: 1241px) {
+    .first-line-display {
         display: none;
     }
-    .first-line-display-alt{
-        display:block;
+
+    .first-line-display-alt {
+        display: block;
     }
 }
 
@@ -321,7 +323,7 @@
     }
 }
 
-@media only screen and (max-width: 1328px) and (min-width: 1200px){
+@media only screen and (max-width: 1328px) and (min-width: 1200px) {
     .carousel-caption {
         top: 11rem !important;
         right: 100px !important;
@@ -330,7 +332,7 @@
     }
 }
 
-@media only screen and (max-width: 2200px) and (min-width: 1329px){
+@media only screen and (max-width: 2200px) and (min-width: 1329px) {
     .carousel-caption {
         top: 12rem !important;
         right: 100px !important;
@@ -352,19 +354,21 @@ footer {
     width: 100% !important;
 }
 
-@media only screen and (max-width: 537px){
-.display-big-footer {
-    display:none !important;
-}
-.display-small-footer {
-    display:block !important;
-}
-}
-@media only screen and (min-width: 538px){
+@media only screen and (max-width: 537px) {
+    .display-big-footer {
+        display: none !important;
+    }
+
     .display-small-footer {
-        display:none !important;
+        display: block !important;
     }
+}
+
+@media only screen and (min-width: 538px) {
+    .display-small-footer {
+        display: none !important;
     }
+}
 
 .icons-footer {
     justify-content: center !important;
@@ -374,6 +378,7 @@ footer {
     i {
         font-size: 32px;
     }
+
     .carousel-caption {
         top: 7rem !important;
         right: 30px !important;
@@ -382,7 +387,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 768px){
+@media only screen and (max-width: 991px) and (min-width: 768px) {
     .carousel-caption {
         top: 6.5rem !important;
         right: 30px !important;
@@ -427,6 +432,30 @@ body {
 }
 
 /* autismecoaching pagina */
+
+@media only screen and (min-width: 2200px) {
+    .plantpadding {
+        padding-left: 38px;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    .plantpadding {
+        padding-left: 52px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    .plantpadding {
+        padding-left: 95px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .plantpadding {
+        padding-left: 105px;
+    }
+}
 
 .autismecoaching-container {
     position: relative;
@@ -486,6 +515,11 @@ body {
     }
 
     .regularcontainer2 {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .regularcontainer4 {
         padding-left: 80px !important;
         padding-right: 80px !important;
     }
@@ -669,12 +703,40 @@ body {
     .regularcontainer2 {
         padding-top: 0px !important;
     }
+
+    .regularcontainer4 {
+        padding-top: 0px !important;
+    }
 }
 
 .regularcontainer2 {
     padding-top: 150px;
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.regularcontainer4 {
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media only screen and (min-width: 1101px){
+    .regularcontainer4{
+        padding-right: 0px !important;
+    }
+    .regularcontainer4 .regularparagraph {
+        padding-right: 150px;
+    }
+    .nodisplayabove1100{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .nodisplaybelow1100 {
+        display: none;
+    }
 }
 
 .oplijsting {
@@ -1060,7 +1122,8 @@ input {
 
 /* tarievenpagina */
 .tarieven {
-    height: 303px;
+    position: relative;
+    height: 370px;
     text-align: center;
     border-image-slice: 27 27 27 27;
     border-image-width: 10px 10px 10px 10px;
@@ -1070,7 +1133,16 @@ input {
     border-style: solid;
 }
 
-/* tarievenpagina */
+.tarievencentered {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Over mij */
 .eva {
     width: 100%;
     height: auto;
@@ -1088,7 +1160,7 @@ p.fw-light {
 }
 
 /* contact */
-.googlemaps{
+.googlemaps {
     width: 100%;
     height: 400px;
 }
