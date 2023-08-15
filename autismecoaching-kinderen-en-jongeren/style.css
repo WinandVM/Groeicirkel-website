@@ -255,26 +255,26 @@ body {
 
 .houtachtergrond {
     width: 100%;
-    height: 400px;
+    height: 550px;
     object-fit: cover;
     filter: brightness(50%);
 }
 
 @media only screen and (max-width: 956px) and (min-width: 550px) {
     .houtachtergrond {
-        height: 500px;
-    }
-}
-
-@media only screen and (max-width: 549px) and (min-width: 432px) {
-    .houtachtergrond {
         height: 600px;
     }
 }
 
-@media only screen and (max-width: 431px) {
+@media only screen and (max-width: 550px) and (min-width: 432px) {
     .houtachtergrond {
-        height: 700px;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 432px) {
+    .houtachtergrond {
+        height: 1000px;
     }
 }
 
@@ -292,6 +292,12 @@ body {
 .invisiblestuff {
     color:#fff;
     font-size: 24px;
+}
+
+@media only screen and (max-width: 956px) {
+    .invisiblestuff {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 705px) {
@@ -330,7 +336,7 @@ body {
     .houtparagraaf4 {
         left: 80px !important;
         padding-right: 80px !important;
-        top: 180px !important;
+        top: 120px !important;
     }
 }
 
@@ -363,7 +369,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1089px) and (min-width: 1046px) {
+@media only screen and (max-width:1090px) and (min-width: 1045px) {
     #circle {
         position: absolute;
         top: 60px;
@@ -778,7 +784,7 @@ body {
 
 @media only screen and (max-width: 956px) {
     .houtparagraaf4 {
-        top: 180px;
+        top: 140px;
     }
 }
 
@@ -790,7 +796,7 @@ body {
 
 @media only screen and (max-width: 795px) {
     .houtparagraaf4 {
-        top: 210px;
+        top: 160px;
     }
 }
 
@@ -802,7 +808,7 @@ body {
 
 @media only screen and (max-width: 616px) {
     .houtparagraaf4 {
-        top: 210px !important;
+        top: 160px !important;
     }
 }
 
@@ -818,7 +824,7 @@ body {
     }
 
     .houtparagraaf4 {
-        top: 240px !important;
+        top: 160px !important;
     }
 }
 
@@ -840,7 +846,7 @@ body {
     }
 
     .houtparagraaf4 {
-        top: 260px !important;
+        top: 160px !important;
     }
 }
 

@@ -369,6 +369,12 @@ footer {
     width: 100% !important;
 }
 
+@media only screen and (max-width: 413px) {
+    .donotdisplaybelow413 {
+        display: none !important;
+    }
+}
+
 @media only screen and (max-width: 537px) {
     .display-big-footer {
         display: none !important;
