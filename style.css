@@ -141,11 +141,11 @@
     background-color: transparent;
 }
 
-@media only screen and (max-width: 561px) {
+/* @media only screen and (max-width: 561px) {
     img.d-block.w-100.overlay {
         padding-top: 150px;
     }
-}
+} */
 
 @media only screen and (min-width: 1600px) {
     img.d-block.w-100.overlay {
@@ -169,10 +169,10 @@
     } */
 
     .carousel-caption {
-        top: 10rem !important;
+        top: 3rem !important;
         right: 200px !important;
         left: 200px !important;
-        color: #dc8836;
+        color: #fff;
     }
 
     .houtenvloerfooter {
@@ -184,20 +184,20 @@
 }
 
 @media only screen and (min-width: 1600px) {
-    .carousel-caption{
-        top: 15rem !important;
+    .carousel-caption {
+        top: 3rem !important;
         right: 200px !important;
         left: 200px !important;
-        color: #dc8836;
+        color: #fff;
     }
 }
 
 @media only screen and (min-width: 2000px) {
-    .carousel-caption{
-        top: 20rem !important;
+    .carousel-caption {
+        top: 3rem !important;
         right: 200px !important;
         left: 200px !important;
-        color: #dc8836;
+        color: #fff;
     }
 }
 
@@ -214,7 +214,7 @@
         object-fit: cover;
         width: 100%;
         min-height: calc(100vh - 96px) !important;
-        /* filter: brightness(50%); */
+        filter: brightness(50%);
     }
 }
 
@@ -246,14 +246,14 @@
         object-fit: cover;
         width: 100%;
         height: calc(100vh - 222px) !important;
-        /* filter: brightness(50%); */
+        filter: brightness(50%);
     }
 
     .carousel-caption {
-        top: 15rem !important;
+        top: 3rem !important;
         right: 100px !important;
         left: 100px !important;
-        color: #dc8836;
+        color: #fff;
     }
 }
 
@@ -267,11 +267,18 @@
     right: 50px;
     left: 50px;
 } */
-.carousel-caption {
+/* .carousel-caption {
     top: 10rem;
     right: 50px;
     left: 50px;
     color: #dc8836;
+} */
+
+.carousel-caption {
+    top: 3rem;
+    right: 50px;
+    left: 50px;
+    color: #fff;
 }
 
 .houtenvloerfooter {
@@ -282,36 +289,38 @@
 }
 
 @media only screen and (max-width: 1240px) {
-    .first-line-display{
+    .first-line-display {
         display: block;
     }
-    .first-line-display-alt{
-        display:none;
+
+    .first-line-display-alt {
+        display: none;
     }
 }
 
-@media only screen and (min-width: 1241px){
-    .first-line-display{
+@media only screen and (min-width: 1241px) {
+    .first-line-display {
         display: none;
     }
-    .first-line-display-alt{
-        display:block;
+
+    .first-line-display-alt {
+        display: block;
     }
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
-    /* .carousel-caption {
+    .carousel-caption {
         top: 3rem !important;
         right: 100px !important;
         left: 100px !important;
-    } */
+    }
 
-    .carousel-caption {
+    /* .carousel-caption {
         top: 11rem !important;
         right: 100px !important;
         left: 100px !important;
-        color: #dc8836;
-    }
+        color: #fff;
+    } */
 
     .houtenvloerfooter {
         position: absolute;
@@ -321,21 +330,29 @@
     }
 }
 
-@media only screen and (max-width: 1328px) and (min-width: 1200px){
-    .carousel-caption {
+@media only screen and (max-width: 1328px) and (min-width: 1200px) {
+    /* .carousel-caption {
         top: 11rem !important;
         right: 100px !important;
         left: 100px !important;
-        color: #dc8836;
-    }
-}
+        color: #fff;
+    } */
 
-@media only screen and (max-width: 2200px) and (min-width: 1329px){
     .carousel-caption {
-        top: 12rem !important;
+        top: 3rem !important;
         right: 100px !important;
         left: 100px !important;
-        color: #dc8836;
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 1329px) {
+    .carousel-caption {
+        top: 3rem !important;
+        right: 100px !important;
+        left: 100px !important;
+        color: #fff;
     }
 }
 
@@ -343,7 +360,7 @@
     object-fit: cover;
     width: 100%;
     height: calc(100vh - 166px);
-    /* filter: brightness(50%); */
+    filter: brightness(50%);
 }
 
 footer {
@@ -352,19 +369,27 @@ footer {
     width: 100% !important;
 }
 
-@media only screen and (max-width: 537px){
-.display-big-footer {
-    display:none !important;
+@media only screen and (max-width: 413px) {
+    .donotdisplaybelow413 {
+        display: none !important;
+    }
 }
-.display-small-footer {
-    display:block !important;
-}
-}
-@media only screen and (min-width: 538px){
+
+@media only screen and (max-width: 537px) {
+    .display-big-footer {
+        display: none !important;
+    }
+
     .display-small-footer {
-        display:none !important;
+        display: block !important;
     }
+}
+
+@media only screen and (min-width: 538px) {
+    .display-small-footer {
+        display: none !important;
     }
+}
 
 .icons-footer {
     justify-content: center !important;
@@ -374,20 +399,42 @@ footer {
     i {
         font-size: 32px;
     }
-    .carousel-caption {
-        top: 7rem !important;
-        right: 30px !important;
-        left: 30px !important;
-        color: #dc8836;
+
+    footer {
+        position: absolute;
+        bottom: 0rem !important;
+        width: 100% !important;
+    }
+
+    .carousel-indicators {
+        display: none;
     }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 768px){
+@media only screen and (max-width: 767px) and (min-width: 511px) {
     .carousel-caption {
-        top: 6.5rem !important;
+        top: 3rem !important;
         right: 30px !important;
         left: 30px !important;
-        color: #dc8836;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .carousel-caption {
+        top: 1rem !important;
+        right: 30px !important;
+        left: 30px !important;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .carousel-caption {
+        top: 3rem !important;
+        right: 30px !important;
+        left: 30px !important;
+        color: #fff;
     }
 }
 
@@ -427,6 +474,30 @@ body {
 }
 
 /* autismecoaching pagina */
+
+@media only screen and (min-width: 2200px) {
+    .plantpadding {
+        padding-left: 38px;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    .plantpadding {
+        padding-left: 52px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    .plantpadding {
+        padding-left: 95px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .plantpadding {
+        padding-left: 105px;
+    }
+}
 
 .autismecoaching-container {
     position: relative;
@@ -490,6 +561,11 @@ body {
         padding-right: 80px !important;
     }
 
+    .regularcontainer4 {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
     .houtparagraaf2 {
         left: 80px !important;
         padding-right: 80px !important;
@@ -515,7 +591,7 @@ body {
     font-weight: 600 !important;
 }
 
-@media only screen and (min-width: 1090px) {
+@media only screen and (min-width: 1089px) {
     #circle {
         position: absolute;
         top: 60px;
@@ -538,7 +614,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1089px) and (min-width: 1046px) {
+@media only screen and (max-width: 1089px) and (min-width: 1045px) {
     #circle {
         position: absolute;
         top: 60px;
@@ -669,12 +745,42 @@ body {
     .regularcontainer2 {
         padding-top: 0px !important;
     }
+
+    .regularcontainer4 {
+        padding-top: 0px !important;
+    }
 }
 
 .regularcontainer2 {
     padding-top: 150px;
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.regularcontainer4 {
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media only screen and (min-width: 1101px) {
+    .regularcontainer4 {
+        padding-right: 0px !important;
+    }
+
+    .regularcontainer4 .regularparagraph {
+        padding-right: 150px;
+    }
+
+    .nodisplayabove1100 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .nodisplaybelow1100 {
+        display: none;
+    }
 }
 
 .oplijsting {
@@ -815,7 +921,7 @@ body {
     filter: brightness(50%);
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1204px) {
     .houtparagraaf3 {
         top: 250px;
     }
@@ -837,13 +943,13 @@ body {
     }
 
     .houtachtergrond3 {
-        height: 500px;
+        height: 530px;
     }
 }
 
 @media only screen and (max-width: 712px) {
     .houtachtergrond3 {
-        height: 540px;
+        height: 570px;
     }
 }
 
@@ -871,7 +977,7 @@ body {
 
 @media only screen and (max-width: 481px) {
     .houtachtergrond3 {
-        height: 680px;
+        height: 690px;
     }
 }
 
@@ -918,20 +1024,20 @@ body {
 
 .houtachtergrond4 {
     width: 100%;
-    height: 400px;
+    height: 430px;
     object-fit: cover;
     filter: brightness(50%);
 }
 
 @media only screen and (max-width: 1234px) {
     .houtachtergrond4 {
-        height: 450px;
+        height: 500px;
     }
 }
 
 @media only screen and (max-width: 1040px) {
     .houtachtergrond4 {
-        height: 500px;
+        height: 600px;
     }
 
     .houtparagraaf4 {
@@ -959,7 +1065,7 @@ body {
 
 @media only screen and (max-width: 784px) {
     .houtachtergrond4 {
-        height: 600px;
+        height: 650px;
     }
 }
 
@@ -971,13 +1077,13 @@ body {
 
 @media only screen and (max-width: 569px) {
     .houtachtergrond4 {
-        height: 630px;
+        height: 680px;
     }
 }
 
 @media only screen and (max-width: 527px) {
     .houtachtergrond4 {
-        height: 750px;
+        height: 800px;
     }
 
     .houtparagraaf4 {
@@ -987,19 +1093,19 @@ body {
 
 @media only screen and (max-width: 450px) {
     .houtachtergrond4 {
-        height: 820px;
+        height: 900px;
     }
 }
 
 @media only screen and (max-width: 429px) {
     .houtachtergrond4 {
-        height: 850px;
+        height: 950px;
     }
 }
 
 @media only screen and (max-width: 424px) {
     .houtachtergrond4 {
-        height: 900px;
+        height: 1050px;
     }
 
     .houtparagraaf4 {
@@ -1009,15 +1115,15 @@ body {
 
 @media only screen and (max-width: 404px) {
     .houtachtergrond4 {
-        height: 950px;
-    }
-}
-
-@media only screen and (max-width: 386px) {
-    .houtachtergrond4 {
         height: 1050px;
     }
 }
+
+/* @media only screen and (max-width: 386px) {
+    .houtachtergrond4 {
+        height: 1050px;
+    }
+} */
 
 
 /* kalender */
@@ -1060,7 +1166,8 @@ input {
 
 /* tarievenpagina */
 .tarieven {
-    height: 303px;
+    position: relative;
+    height: 370px;
     text-align: center;
     border-image-slice: 27 27 27 27;
     border-image-width: 10px 10px 10px 10px;
@@ -1070,10 +1177,26 @@ input {
     border-style: solid;
 }
 
-/* tarievenpagina */
+.tarievencentered {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Over mij */
 .eva {
     width: 100%;
     height: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .eva {
+        height: 220px;
+        width: auto;
+    }
 }
 
 p.fw-light {
@@ -1088,7 +1211,7 @@ p.fw-light {
 }
 
 /* contact */
-.googlemaps{
+.googlemaps {
     width: 100%;
     height: 400px;
 }
