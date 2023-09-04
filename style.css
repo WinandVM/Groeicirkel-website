@@ -148,9 +148,14 @@
 } */
 
 @media only screen and (min-width: 1600px) {
-    img.d-block.w-100.overlay {
+    /* img.d-block.w-100.overlay {
         padding-top: 50px;
-    }
+    } */
+    /* .stronkcontainer{
+        height: 50px;
+        background-color: #fafafa;
+        filter: brightness(50%);
+    } */
 }
 
 @media only screen and (min-width: 1200px) {
@@ -245,7 +250,7 @@
     .overlay {
         object-fit: cover;
         width: 100%;
-        height: calc(100vh - 222px) !important;
+        height: calc(100vh - 172px) !important;
         filter: brightness(50%);
     }
 

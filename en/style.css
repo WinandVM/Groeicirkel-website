@@ -11,53 +11,107 @@
 
 @media only screen and (max-width:1099px) and (min-width:992px) {
     .languageheader {
-        padding-right: 17px;
-    }
-}
-
-@media only screen and (max-width:1200px) and (min-width:1100px) {
-    .languageheader {
         padding-right: 20px;
     }
 }
 
 @media only screen and (max-width:1200px) and (min-width:1100px) {
     .languageheader {
-        padding-right: 21.5px;
+        padding-right: 25px;
     }
 }
 
 @media only screen and (max-width:1230px) and (min-width:1201px) {
     .languageheader {
-        padding-right: 23px;
+        padding-right: 32px;
     }
 }
 
 @media only screen and (max-width:1260px) and (min-width:1231px) {
     .languageheader {
-        padding-right: 26px;
+        padding-right: 36px;
     }
 }
 
 @media only screen and (max-width:1330px) and (min-width:1261px) {
     .languageheader {
-        padding-right: 29px;
+        padding-right: 40px;
     }
 }
 
 @media only screen and (max-width:1380px) and (min-width:1331px) {
     .languageheader {
-        padding-right: 33px;
+        padding-right: 44px;
     }
 }
 
 @media only screen and (max-width:1441px) and (min-width:1381px) {
     .languageheader {
-        padding-right: 39px;
+        padding-right: 48px;
     }
 }
 
-@media only screen and (min-width:1px) {
+@media only screen and (max-width:1501px) and (min-width:1441px) {
+    .languageheader {
+        padding-right: 51px;
+    }
+}
+
+@media only screen and (max-width:1501px) and (min-width:1441px) {
+    .languageheader {
+        padding-right: 51px;
+    }
+}
+
+@media only screen and (max-width:1561px) and (min-width:1501px) {
+    .languageheader {
+        padding-right: 54px;
+    }
+}
+
+@media only screen and (max-width:1621px) and (min-width:1561px) {
+    .languageheader {
+        padding-right: 58px;
+    }
+}
+
+@media only screen and (max-width:1681px) and (min-width:1621px) {
+    .languageheader {
+        padding-right: 63px;
+    }
+}
+
+@media only screen and (max-width:1741px) and (min-width:1681px) {
+    .languageheader {
+        padding-right: 68px;
+    }
+}
+
+@media only screen and (max-width:1801px) and (min-width:1741px) {
+    .languageheader {
+        padding-right: 73px;
+    }
+}
+
+@media only screen and (max-width:1861px) and (min-width:1801px) {
+    .languageheader {
+        padding-right: 78px;
+    }
+}
+
+@media only screen and (max-width:1921px) and (min-width:1861px) {
+    .languageheader {
+        padding-right: 83px;
+    }
+}
+
+@media only screen and (max-width:1981px) and (min-width:1921px) {
+    .languageheader {
+        padding-right: 87px;
+    }
+}
+
+@media only screen and (min-width:1982px) {
     .div-topnavbar {
         justify-content: center !important;
     }
@@ -77,10 +131,26 @@
     color: #fff !important
 }
 
+.brown {
+    color: #dc8836 !important;
+}
+
 .navbarlink:hover {
     color: #fff;
     font-weight: 600;
     background-color: transparent;
+}
+
+/* @media only screen and (max-width: 561px) {
+    img.d-block.w-100.overlay {
+        padding-top: 150px;
+    }
+} */
+
+@media only screen and (min-width: 1600px) {
+    img.d-block.w-100.overlay {
+        padding-top: 50px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -92,10 +162,17 @@
         text-align: center;
     }
 
+    /* .carousel-caption {
+        top: 3rem !important;
+        right: 200px !important;
+        left: 200px !important;
+    } */
+
     .carousel-caption {
         top: 3rem !important;
         right: 200px !important;
         left: 200px !important;
+        color: #fff;
     }
 
     .houtenvloerfooter {
@@ -103,6 +180,24 @@
         right: 200px !important;
         left: 200px !important;
         bottom: 1rem !important
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .carousel-caption {
+        top: 3rem !important;
+        right: 200px !important;
+        left: 200px !important;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .carousel-caption {
+        top: 3rem !important;
+        right: 200px !important;
+        left: 200px !important;
+        color: #fff;
     }
 }
 
@@ -153,6 +248,13 @@
         height: calc(100vh - 222px) !important;
         filter: brightness(50%);
     }
+
+    .carousel-caption {
+        top: 3rem !important;
+        right: 100px !important;
+        left: 100px !important;
+        color: #fff;
+    }
 }
 
 .activemenu {
@@ -160,10 +262,23 @@
 }
 
 /* carousel */
-.carousel-caption {
+/* .carousel-caption {
     top: 3rem !important;
     right: 50px;
     left: 50px;
+} */
+/* .carousel-caption {
+    top: 10rem;
+    right: 50px;
+    left: 50px;
+    color: #dc8836;
+} */
+
+.carousel-caption {
+    top: 3rem;
+    right: 50px;
+    left: 50px;
+    color: #fff;
 }
 
 .houtenvloerfooter {
@@ -173,6 +288,26 @@
     bottom: 1rem !important
 }
 
+@media only screen and (max-width: 1240px) {
+    .first-line-display {
+        display: block;
+    }
+
+    .first-line-display-alt {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1241px) {
+    .first-line-display {
+        display: none;
+    }
+
+    .first-line-display-alt {
+        display: block;
+    }
+}
+
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
     .carousel-caption {
         top: 3rem !important;
@@ -180,11 +315,44 @@
         left: 100px !important;
     }
 
+    /* .carousel-caption {
+        top: 11rem !important;
+        right: 100px !important;
+        left: 100px !important;
+        color: #fff;
+    } */
+
     .houtenvloerfooter {
         position: absolute;
         right: 100px !important;
         left: 100px !important;
         bottom: 1rem !important
+    }
+}
+
+@media only screen and (max-width: 1328px) and (min-width: 1200px) {
+    /* .carousel-caption {
+        top: 11rem !important;
+        right: 100px !important;
+        left: 100px !important;
+        color: #fff;
+    } */
+
+    .carousel-caption {
+        top: 3rem !important;
+        right: 100px !important;
+        left: 100px !important;
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 1329px) {
+    .carousel-caption {
+        top: 3rem !important;
+        right: 100px !important;
+        left: 100px !important;
+        color: #fff;
     }
 }
 
@@ -201,6 +369,28 @@ footer {
     width: 100% !important;
 }
 
+@media only screen and (max-width: 413px) {
+    .donotdisplaybelow413 {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 537px) {
+    .display-big-footer {
+        display: none !important;
+    }
+
+    .display-small-footer {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 538px) {
+    .display-small-footer {
+        display: none !important;
+    }
+}
+
 .icons-footer {
     justify-content: center !important;
 }
@@ -208,6 +398,43 @@ footer {
 @media only screen and (max-width:767px) {
     i {
         font-size: 32px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0rem !important;
+        width: 100% !important;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 511px) {
+    .carousel-caption {
+        top: 3rem !important;
+        right: 30px !important;
+        left: 30px !important;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .carousel-caption {
+        top: 1rem !important;
+        right: 30px !important;
+        left: 30px !important;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .carousel-caption {
+        top: 3rem !important;
+        right: 30px !important;
+        left: 30px !important;
+        color: #fff;
     }
 }
 
@@ -248,6 +475,30 @@ body {
 
 /* autismecoaching pagina */
 
+@media only screen and (min-width: 2200px) {
+    .plantpadding {
+        padding-left: 38px;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    .plantpadding {
+        padding-left: 52px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    .plantpadding {
+        padding-left: 95px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .plantpadding {
+        padding-left: 105px;
+    }
+}
+
 .autismecoaching-container {
     position: relative;
     color: white;
@@ -255,62 +506,26 @@ body {
 
 .houtachtergrond {
     width: 100%;
-    height: 550px;
+    height: 400px;
     object-fit: cover;
     filter: brightness(50%);
 }
 
-@media only screen and (max-width: 1100px) and (min-width: 956px) {
-    .houtachtergrondextra {
-        height: 620px;
+@media only screen and (max-width: 956px) and (min-width: 550px) {
+    .houtachtergrond {
+        height: 500px;
     }
 }
 
-@media only screen and (max-width: 956px) and (min-width: 550px) {
+@media only screen and (max-width: 549px) and (min-width: 432px) {
     .houtachtergrond {
         height: 600px;
     }
 }
 
-@media only screen and (max-width: 956px) and (min-width: 750px) {
-    .houtachtergrondextra {
-        height: 720px;
-    }
-}
-
-@media only screen and (max-width: 750px) and (min-width: 550px) {
-    .houtachtergrondextra {
-        height: 740px;
-    }
-}
-
-@media only screen and (max-width: 550px) and (min-width: 432px) {
+@media only screen and (max-width: 431px) {
     .houtachtergrond {
-        height: 800px;
-    }
-
-    .houtachtergrondextra {
-        height: 1000px;
-    }
-}
-
-@media only screen and (max-width: 432px) and (min-width: 380px) {
-    .houtachtergrond {
-        height: 1000px;
-    }
-
-    .houtachtergrondextra {
-        height: 1200px;
-    }
-}
-
-@media only screen and (max-width: 380px) {
-    .houtachtergrond {
-        height: 1000px;
-    }
-
-    .houtachtergrondextra {
-        height: 1400px;
+        height: 700px;
     }
 }
 
@@ -324,46 +539,6 @@ body {
     text-indent: -1.8em;
 }
 
-
-.invisiblestuff {
-    color: #fff;
-    font-size: 24px;
-}
-
-.otherinvisiblestuff {
-    visibility: hidden;
-}
-
-.smallerinvisible {
-    color: #fff;
-    font-size: 18px;
-}
-
-@media only screen and (max-width: 956px) {
-    .invisiblestuff {
-        display: none;
-    }
-
-    .smallerinvisible {
-        display: none;
-    }
-
-    .otherinvisiblestuff {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 874px) and (min-width: 690px) {
-    .houtparagraaf6 {
-        top: 180px !important;
-    }
-}
-
-@media only screen and (max-width: 689px) {
-    .houtparagraaf6 {
-        top: 220px !important;
-    }
-}
 
 @media only screen and (max-width: 705px) {
     .houttitel {
@@ -386,6 +561,11 @@ body {
         padding-right: 80px !important;
     }
 
+    .regularcontainer4 {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
     .houtparagraaf2 {
         left: 80px !important;
         padding-right: 80px !important;
@@ -401,24 +581,17 @@ body {
     .houtparagraaf4 {
         left: 80px !important;
         padding-right: 80px !important;
-        top: 120px !important;
+        top: 180px !important;
     }
-
-    
-    .houtparagraaf6 {
-        left: 80px !important;
-        padding-right: 80px !important;
-        top: 170px;
-    }
-
 }
+
 
 .eersteletters {
     color: black;
     font-weight: 600 !important;
 }
 
-@media only screen and (min-width: 1090px) {
+@media only screen and (min-width: 1089px) {
     #circle {
         position: absolute;
         top: 60px;
@@ -441,7 +614,7 @@ body {
     }
 }
 
-@media only screen and (max-width:1090px) and (min-width: 1045px) {
+@media only screen and (max-width: 1089px) and (min-width: 1045px) {
     #circle {
         position: absolute;
         top: 60px;
@@ -531,7 +704,7 @@ body {
     }
 
     .houtparagraaf {
-        top: 120px !important;
+        top: 180px !important;
     }
 
     .regulartitle {
@@ -547,10 +720,6 @@ body {
     }
 
     .regulartitle4 {
-        position: static !important;
-    }
-
-    .regulartitle5 {
         position: static !important;
     }
 }
@@ -576,12 +745,42 @@ body {
     .regularcontainer2 {
         padding-top: 0px !important;
     }
+
+    .regularcontainer4 {
+        padding-top: 0px !important;
+    }
 }
 
 .regularcontainer2 {
     padding-top: 150px;
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.regularcontainer4 {
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media only screen and (min-width: 1101px) {
+    .regularcontainer4 {
+        padding-right: 0px !important;
+    }
+
+    .regularcontainer4 .regularparagraph {
+        padding-right: 150px;
+    }
+
+    .nodisplayabove1100 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .nodisplaybelow1100 {
+        display: none;
+    }
 }
 
 .oplijsting {
@@ -611,14 +810,6 @@ body {
     width: 100%;
     height: 200px;
     filter: brightness(70%);
-}
-
-/* mindfulness kinderen en ouders pagina */
-.regulartitle5 {
-    font-weight: 600;
-    position: absolute;
-    top: 92px;
-    left: 184px;
 }
 
 /* mindfulness kinderen en ouders pagina */
@@ -656,7 +847,7 @@ body {
     }
 
     .houtachtergrond2 {
-        height: 500px;
+        height: 430px;
     }
 }
 
@@ -672,7 +863,7 @@ body {
     }
 
     .houtachtergrond2 {
-        height: 500px;
+        height: 480px;
     }
 }
 
@@ -682,7 +873,7 @@ body {
     }
 
     .houtachtergrond2 {
-        height: 590px;
+        height: 550px;
     }
 }
 
@@ -715,28 +906,6 @@ body {
     }
 }
 
-@media only screen and (max-width: 425px) {
-    .houtachtergrond2 {
-        height: 800px;
-    }
-
-    .houtachtergrond2ietsgroteropkleinscherm {
-        height: 900px;
-    }
-}
-
-@media only screen and (max-width: 370px) {
-    .houtachtergrond2 {
-        height: 900px;
-    }
-}
-
-@media only screen and (max-width: 340px) {
-    .houtachtergrond2 {
-        height: 1200px;
-    }
-}
-
 /* mindfulness jongeren 10-14 pagina */
 .houtparagraaf3 {
     position: absolute;
@@ -752,7 +921,7 @@ body {
     filter: brightness(50%);
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1204px) {
     .houtparagraaf3 {
         top: 250px;
     }
@@ -774,13 +943,13 @@ body {
     }
 
     .houtachtergrond3 {
-        height: 500px;
+        height: 530px;
     }
 }
 
 @media only screen and (max-width: 712px) {
     .houtachtergrond3 {
-        height: 540px;
+        height: 570px;
     }
 }
 
@@ -808,7 +977,7 @@ body {
 
 @media only screen and (max-width: 481px) {
     .houtachtergrond3 {
-        height: 680px;
+        height: 690px;
     }
 }
 
@@ -853,62 +1022,32 @@ body {
     padding-right: 150px;
 }
 
-.houtparagraaf6 {
-    position: absolute;
-    top: 200px;
-    left: 150px;
-    padding-right: 150px;
-}
-
 .houtachtergrond4 {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
-    filter: brightness(50%);
-}
-
-.houtachtergrond6 {
-    width: 100%;
-    height: 500px;
+    height: 430px;
     object-fit: cover;
     filter: brightness(50%);
 }
 
 @media only screen and (max-width: 1234px) {
     .houtachtergrond4 {
-        height: 450px;
-    }
-
-    .houtachtergrond6 {
-        height: 550px;
+        height: 500px;
     }
 }
 
 @media only screen and (max-width: 1040px) {
     .houtachtergrond4 {
-        height: 500px;
-    }
-
-    .houtachtergrond6 {
-        height: 650px;
+        height: 600px;
     }
 
     .houtparagraaf4 {
-        top: 250px;
-    }
-
-    .houtparagraaf6 {
         top: 250px;
     }
 }
 
 @media only screen and (max-width: 956px) {
     .houtparagraaf4 {
-        top: 140px;
-    }
-
-    .houtparagraaf6 {
-        top: 140px;
+        top: 180px;
     }
 }
 
@@ -916,118 +1055,75 @@ body {
     .houtachtergrond4 {
         height: 550px;
     }
-    .houtachtergrond6 {
-        height: 650px;
-    }
 }
 
 @media only screen and (max-width: 795px) {
     .houtparagraaf4 {
-        top: 160px;
+        top: 210px;
     }
 }
 
 @media only screen and (max-width: 784px) {
     .houtachtergrond4 {
-        height: 600px;
-    }
-    .houtachtergrond6 {
-        height: 800px;
+        height: 650px;
     }
 }
 
 @media only screen and (max-width: 616px) {
     .houtparagraaf4 {
-        top: 160px !important;
+        top: 210px !important;
     }
 }
 
 @media only screen and (max-width: 569px) {
     .houtachtergrond4 {
-        height: 630px;
-    }
-    .houtachtergrond6 {
-        height: 850px;
+        height: 680px;
     }
 }
 
 @media only screen and (max-width: 527px) {
     .houtachtergrond4 {
-        height: 750px;
-    }
-
-    .houtachtergrond6 {
-        height: 1100px;
+        height: 800px;
     }
 
     .houtparagraaf4 {
-        top: 160px !important;
-    }
-
-    .houtparagraaf5 {
-        top: 180px !important
+        top: 240px !important;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .houtachtergrond4 {
-        height: 820px;
-    }
-    .houtachtergrond6 {
-        height: 1160px;
+        height: 900px;
     }
 }
 
 @media only screen and (max-width: 429px) {
     .houtachtergrond4 {
-        height: 850px;
-    }
-    .houtparagraaf5 {
-        top: 200px !important;
-    }
-
-    .houtachtergrond6 {
-        height: 1300px;
+        height: 950px;
     }
 }
 
 @media only screen and (max-width: 424px) {
     .houtachtergrond4 {
-        height: 900px;
-    }
-
-    .houtachtergrond6 {
-        height: 1300px;
+        height: 1050px;
     }
 
     .houtparagraaf4 {
-        top: 160px !important;
-    }
-
-    .houtparagraaf5 {
-        top: 200px !important;
+        top: 260px !important;
     }
 }
 
 @media only screen and (max-width: 404px) {
     .houtachtergrond4 {
-        height: 950px;
-    }
-
-    .houtachtergrond6 {
-        height: 1350px;
+        height: 1050px;
     }
 }
 
-@media only screen and (max-width: 386px) {
+/* @media only screen and (max-width: 386px) {
     .houtachtergrond4 {
         height: 1050px;
     }
-
-    .houtachtergrond6 {
-        height: 1800px;
-    }
-}
+} */
 
 
 /* kalender */
@@ -1070,7 +1166,8 @@ input {
 
 /* tarievenpagina */
 .tarieven {
-    height: 303px;
+    position: relative;
+    height: 370px;
     text-align: center;
     border-image-slice: 27 27 27 27;
     border-image-width: 10px 10px 10px 10px;
@@ -1080,10 +1177,26 @@ input {
     border-style: solid;
 }
 
-/* tarievenpagina */
+.tarievencentered {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Over mij */
 .eva {
     width: 100%;
     height: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .eva {
+        height: 220px;
+        width: auto;
+    }
 }
 
 p.fw-light {

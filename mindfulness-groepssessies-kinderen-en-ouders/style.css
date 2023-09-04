@@ -260,9 +260,28 @@ body {
     filter: brightness(50%);
 }
 
+@media only screen and (max-width: 1100px) and (min-width: 956px) {
+    .houtachtergrondextra {
+        height: 620px;
+    }
+}
+
 @media only screen and (max-width: 956px) and (min-width: 550px) {
     .houtachtergrond {
         height: 600px;
+    }
+}
+
+
+@media only screen and (max-width: 956px) and (min-width: 750px) {
+    .houtachtergrondextra {
+        height: 720px;
+    }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 550px) {
+    .houtachtergrondextra {
+        height: 740px;
     }
 }
 
@@ -270,11 +289,29 @@ body {
     .houtachtergrond {
         height: 800px;
     }
+
+    .houtachtergrondextra {
+        height: 1000px;
+    }
 }
 
-@media only screen and (max-width: 432px) {
+@media only screen and (max-width: 432px) and (min-width: 380px) {
     .houtachtergrond {
         height: 1000px;
+    }
+
+    .houtachtergrondextra {
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .houtachtergrond {
+        height: 1000px;
+    }
+
+    .houtachtergrondextra {
+        height: 1400px;
     }
 }
 
@@ -601,7 +638,7 @@ body {
     }
 
     .houtachtergrond2 {
-        height: 430px;
+        height: 500px;
     }
 }
 
@@ -617,7 +654,7 @@ body {
     }
 
     .houtachtergrond2 {
-        height: 480px;
+        height: 500px;
     }
 }
 
@@ -627,7 +664,7 @@ body {
     }
 
     .houtachtergrond2 {
-        height: 550px;
+        height: 590px;
     }
 }
 
@@ -657,6 +694,28 @@ body {
 @media only screen and (max-width: 463px) {
     .houtachtergrond2 {
         height: 700px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .houtachtergrond2 {
+        height: 800px;
+    }
+
+    .houtachtergrond2ietsgroteropkleinscherm {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .houtachtergrond2 {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .houtachtergrond2 {
+        height: 1200px;
     }
 }
 
@@ -843,6 +902,10 @@ body {
     .houtparagraaf4 {
         top: 160px !important;
     }
+
+    .houtparagraaf5 {
+        top: 180px !important
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -855,6 +918,10 @@ body {
     .houtachtergrond4 {
         height: 850px;
     }
+
+    .houtparagraaf5 {
+        top: 200px !important;
+    }
 }
 
 @media only screen and (max-width: 424px) {
@@ -864,6 +931,10 @@ body {
 
     .houtparagraaf4 {
         top: 160px !important;
+    }
+
+    .houtparagraaf5 {
+        top: 200px !important;
     }
 }
 
