@@ -306,11 +306,11 @@ body {
 
 @media only screen and (max-width: 380px) {
     .houtachtergrond {
-        height: 1000px;
+        height: 1300px;
     }
 
     .houtachtergrondextra {
-        height: 1400px;
+        height: 1700px;
     }
 }
 
