@@ -516,7 +516,7 @@ body {
     filter: brightness(50%);
 }
 
-@media only screen and (max-width: 956px) and (min-width: 550px) {
+@media only screen and (max-width: 970px) and (min-width: 550px) {
     .houtachtergrond {
         height: 500px;
     }
@@ -524,13 +524,13 @@ body {
 
 @media only screen and (max-width: 549px) and (min-width: 432px) {
     .houtachtergrond {
-        height: 600px;
+        height: 650px;
     }
 }
 
 @media only screen and (max-width: 431px) {
     .houtachtergrond {
-        height: 700px;
+        height: 800px;
     }
 }
 
@@ -688,6 +688,24 @@ body {
     }
 }
 
+@media only screen and (max-width: 969px) {
+    .houtparagraaf {
+        top: 240px !important;
+    }
+}
+
+@media only screen and (max-width: 956px) and (min-width: 533px){
+    .houtparagraaf {
+        top: 180px !important;
+    }
+}
+
+@media only screen and (max-width: 532px){
+    .houtparagraaf {
+        top: 200px !important;
+    }
+}
+
 @media only screen and (max-width: 956px) {
     #circle {
         display: none;
@@ -708,10 +726,7 @@ body {
         font-weight: 500 !important;
     }
 
-    .houtparagraaf {
-        top: 180px !important;
-    }
-
+    
     .regulartitle {
         position: static !important;
     }
@@ -905,6 +920,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 372px) {
+    .houtparagraaf2 {
+        top: 270px !important;
+    }
+}
+
 @media only screen and (max-width: 463px) {
     .houtachtergrond2 {
         height: 700px;
@@ -921,7 +942,7 @@ body {
 
 .houtachtergrond3 {
     width: 100%;
-    height: 400px;
+    height: 480px;
     object-fit: cover;
     filter: brightness(50%);
 }
@@ -930,15 +951,18 @@ body {
     .houtparagraaf3 {
         top: 250px;
     }
-
     .houtachtergrond3 {
-        height: 450px;
+        height: 530px;
     }
 }
 
 @media only screen and (max-width: 956px) {
     .houtparagraaf3 {
         top: 180px;
+    }
+
+    .houtachtergrond3 {
+        height: 600px;
     }
 }
 
@@ -948,13 +972,13 @@ body {
     }
 
     .houtachtergrond3 {
-        height: 530px;
+        height: 600px;
     }
 }
 
 @media only screen and (max-width: 712px) {
     .houtachtergrond3 {
-        height: 570px;
+        height: 600px;
     }
 }
 
@@ -966,7 +990,7 @@ body {
 
 @media only screen and (max-width: 552px) {
     .houtachtergrond3 {
-        height: 580px;
+        height: 640px;
     }
 }
 
@@ -976,25 +1000,25 @@ body {
     }
 
     .houtachtergrond3 {
-        height: 630px;
+        height: 720px;
     }
 }
 
 @media only screen and (max-width: 481px) {
     .houtachtergrond3 {
-        height: 690px;
+        height: 750px;
     }
 }
 
 @media only screen and (max-width: 441px) {
     .houtachtergrond3 {
-        height: 750px;
+        height: 800px;
     }
 }
 
 @media only screen and (max-width: 424px) {
     .houtachtergrond3 {
-        height: 830px;
+        height: 870px;
     }
 
     .houtparagraaf3 {
@@ -1005,7 +1029,7 @@ body {
 
 @media only screen and (max-width: 394px) {
     .houtachtergrond3 {
-        height: 880px;
+        height: 1000px;
     }
 }
 
@@ -1058,7 +1082,7 @@ body {
 
 @media only screen and (max-width: 819px) {
     .houtachtergrond4 {
-        height: 550px;
+        height: 630px;
     }
 }
 
@@ -1070,7 +1094,7 @@ body {
 
 @media only screen and (max-width: 784px) {
     .houtachtergrond4 {
-        height: 650px;
+        height: 660px;
     }
 }
 
@@ -1088,7 +1112,7 @@ body {
 
 @media only screen and (max-width: 527px) {
     .houtachtergrond4 {
-        height: 800px;
+        height: 840px;
     }
 
     .houtparagraaf4 {
@@ -1120,7 +1144,7 @@ body {
 
 @media only screen and (max-width: 404px) {
     .houtachtergrond4 {
-        height: 1050px;
+        height: 1300px;
     }
 }
 
