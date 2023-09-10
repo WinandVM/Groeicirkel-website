@@ -262,7 +262,7 @@ body {
 
 @media only screen and (max-width: 1100px) and (min-width: 956px) {
     .houtachtergrondextra {
-        height: 620px;
+        height: 720px;
     }
 }
 
@@ -275,13 +275,13 @@ body {
 
 @media only screen and (max-width: 956px) and (min-width: 750px) {
     .houtachtergrondextra {
-        height: 720px;
+        height: 820px;
     }
 }
 
 @media only screen and (max-width: 750px) and (min-width: 550px) {
     .houtachtergrondextra {
-        height: 740px;
+        height: 840px;
     }
 }
 
@@ -291,7 +291,7 @@ body {
     }
 
     .houtachtergrondextra {
-        height: 1000px;
+        height: 1200px;
     }
 }
 
@@ -301,7 +301,7 @@ body {
     }
 
     .houtachtergrondextra {
-        height: 1200px;
+        height: 1500px;
     }
 }
 
@@ -311,7 +311,7 @@ body {
     }
 
     .houtachtergrondextra {
-        height: 1400px;
+        height: 1800px;
     }
 }
 
@@ -703,7 +703,7 @@ body {
     }
 
     .houtachtergrond2ietsgroteropkleinscherm {
-        height: 900px;
+        height: 1400px;
     }
 }
 
