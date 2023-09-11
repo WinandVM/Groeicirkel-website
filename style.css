@@ -544,14 +544,56 @@ body {
     text-indent: -1.8em;
 }
 
+@media only screen and (max-width: 450px) {
+    .houtparagraaf {
+        left: 30px !important;
+        padding-right: 30px !important;
+    }
 
-@media only screen and (max-width: 705px) {
+    .regularcontainer {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
     .houttitel {
+        left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .regularcontainer2 {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .regularcontainer4 {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .houtparagraaf2 {
+        left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .houtparagraaf3 {
+        left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .houtparagraaf4 {
+        left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+}
+
+@media only screen and (max-width: 705px) and (min-width: 450px) {
+    .houtparagraaf {
         left: 80px !important;
         padding-right: 80px !important;
     }
 
-    .houtparagraaf {
+    .houttitel {
         left: 80px !important;
         padding-right: 80px !important;
     }
@@ -589,7 +631,6 @@ body {
         top: 180px !important;
     }
 }
-
 
 .eersteletters {
     color: black;
@@ -694,13 +735,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 956px) and (min-width: 533px){
+@media only screen and (max-width: 956px) and (min-width: 533px) {
     .houtparagraaf {
         top: 180px !important;
     }
 }
 
-@media only screen and (max-width: 532px){
+@media only screen and (max-width: 532px) {
     .houtparagraaf {
         top: 200px !important;
     }
@@ -726,7 +767,7 @@ body {
         font-weight: 500 !important;
     }
 
-    
+
     .regulartitle {
         position: static !important;
     }
@@ -951,6 +992,7 @@ body {
     .houtparagraaf3 {
         top: 250px;
     }
+
     .houtachtergrond3 {
         height: 530px;
     }
@@ -1012,13 +1054,13 @@ body {
 
 @media only screen and (max-width: 441px) {
     .houtachtergrond3 {
-        height: 800px;
+        height: 620px;
     }
 }
 
 @media only screen and (max-width: 424px) {
     .houtachtergrond3 {
-        height: 870px;
+        height: 660px;
     }
 
     .houtparagraaf3 {
@@ -1029,7 +1071,7 @@ body {
 
 @media only screen and (max-width: 394px) {
     .houtachtergrond3 {
-        height: 1000px;
+        height: 800px;
     }
 }
 
@@ -1116,35 +1158,35 @@ body {
     }
 
     .houtparagraaf4 {
-        top: 240px !important;
+        top: 220px !important;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .houtachtergrond4 {
-        height: 900px;
+        height: 720px;
     }
 }
 
 @media only screen and (max-width: 429px) {
     .houtachtergrond4 {
-        height: 950px;
+        height: 750px;
     }
 }
 
 @media only screen and (max-width: 424px) {
     .houtachtergrond4 {
-        height: 1050px;
+        height: 740px;
     }
 
     .houtparagraaf4 {
-        top: 260px !important;
+        top: 220px !important;
     }
 }
 
 @media only screen and (max-width: 404px) {
     .houtachtergrond4 {
-        height: 1300px;
+        height: 900px;
     }
 }
 
