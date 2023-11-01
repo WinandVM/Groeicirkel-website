@@ -293,6 +293,63 @@
     bottom: 1rem !important
 }
 
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.imgrelative {
+
+    width: 100% !important;
+    height: auto;
+    display: block;
+}
+
+.textontop {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #AC8B66;
+    padding: 1rem;
+}
+
+.brownforfooter {
+    color: #AC8B66 !important;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+    .imgrelative {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
+    .imgrelative {
+        padding-top: 160px;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+    .imgrelative {
+        padding-top: 220px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .imgrelative {
+        padding-top: 350px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .imgrelative {
+        padding-top: 450px;
+    }
+}
+
+
 @media only screen and (max-width: 1240px) {
     .first-line-display {
         display: block;
@@ -352,6 +409,8 @@
 
 }
 
+
+
 @media only screen and (max-width: 2200px) and (min-width: 1329px) {
     .carousel-caption {
         top: 3rem !important;
@@ -374,8 +433,14 @@ footer {
     width: 100% !important;
 }
 
-@media only screen and (max-width: 413px) {
-    .donotdisplaybelow413 {
+@media only screen and (max-width: 500px) {
+    .donotdisplaybelow500 {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    .donotdisplaybelow462 {
         display: none !important;
     }
 }
